@@ -16,8 +16,9 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("App Refatorar"),
           backgroundColor: Colors.red,
+          foregroundColor: Colors.white,
         ),
-        body: MaisUmDia(nome: 'BOM DIA CARALHO')
+        body: MaisUmDia(nome: 'BOM DIA')
       ),
     );
   }
