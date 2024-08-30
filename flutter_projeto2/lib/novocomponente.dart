@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_projeto2/botao.dart';
+import 'package:flutter_projeto2/img.dart';
 
 class MaisUmDia extends StatelessWidget {
   final String nome;
@@ -16,7 +17,8 @@ class MaisUmDia extends StatelessWidget {
           ),
           Botao(nomeb:'TESTE TESTE'),
           SizedBox(height: 50,width: 40),
-          Botao(nomeb: 'Teste 2 c:')
+          Botao(nomeb: 'Teste 2 c:'),
+          ImgIns()
         ],
       ),
     );
